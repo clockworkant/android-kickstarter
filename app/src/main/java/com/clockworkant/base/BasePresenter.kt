@@ -4,6 +4,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
 abstract class BasePresenter {
+
     private var compositeDisposable: CompositeDisposable = CompositeDisposable()
     abstract fun subscribe()
 

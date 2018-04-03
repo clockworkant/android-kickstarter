@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 
 abstract class BaseFragmentWithPresenter : Fragment() {
+
     lateinit var presenter: BasePresenter
 
     override fun onResume() {

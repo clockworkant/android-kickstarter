@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 
 abstract class BaseActivityWithPresenter : AppCompatActivity() {
+
     lateinit var presenter: BasePresenter
 
     override fun onResume() {
